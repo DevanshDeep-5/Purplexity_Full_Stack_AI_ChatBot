@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import "../styles/globals.css";
+
+@layer base {
+  :root {
+    font-family: "Inter", sans-serif;
+  }
+
+  body {
+    @apply min-h-screen bg-background text-foreground;
+    margin: 0;
+    font-feature-settings: "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
+  }
+}
